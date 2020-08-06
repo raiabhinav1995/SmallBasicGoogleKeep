@@ -1,0 +1,6 @@
+<div>
+    <div>Title<input type="text" #title/></div>
+    <div>Description<textarea #description id="textarea"></textarea></div>
+    <div>Id<input type="text" #id/></div>
+</div>
+<button (click)="addNote(title.value, description.value, id.value)">Add Notes</button>
